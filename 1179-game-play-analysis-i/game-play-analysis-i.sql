@@ -1,5 +1,5 @@
-SELECT
-    player_id,
-    MIN(event_date) AS first_login
-FROM Activity
-GROUP BY player_id;
+select 
+player_id,
+MIN(event_date)AS first_login
+from activity
+group by player_id;
